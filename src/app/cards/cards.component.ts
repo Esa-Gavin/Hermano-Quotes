@@ -24,6 +24,9 @@ export class CardsComponent implements OnInit {
   downvote = faThumbsDown;
   delete = faTrash;
 
+  @Input() newQ: DisplayQuotes;
+
+
   constructor() {}
 
   ngOnInit(): void {}
