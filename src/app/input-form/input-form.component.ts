@@ -23,6 +23,9 @@ export class InputFormComponent implements OnInit {
   like = faThumbsUp;
   downvote = faThumbsDown;
   delete = faTrash;
+
+  @Output() postQuotes = new EventEmitter();
+
   constructor() {}
 
   ngOnInit(): void {}
