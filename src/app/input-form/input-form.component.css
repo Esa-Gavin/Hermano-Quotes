@@ -5,3 +5,12 @@
     font-size: 60px;
     text-align: center;
 }
+
+input {
+    width: 80%;
+}
+
+textarea {
+    width: 80%;
+    height: 100%;
+}
