@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, OnChanges } from '@angular/core';
 import {
   faThumbsUp,
   faThumbsDown,
@@ -52,4 +52,9 @@ export class CardsComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {}
+  ngOnChanges() {
+    if (this.newQ) {
+      this.disQuotes = [...this.disQuotes, this.newQ];
+    }
+  }
 }
