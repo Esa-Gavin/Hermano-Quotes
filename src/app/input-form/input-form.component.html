@@ -1,3 +1,80 @@
 <div class="container-fluid">
   <h1 class="hermano">Hermano Quotes</h1>
 </div>
+<div class="row">
+  <div class="col-5">
+    <div class="container-fluid" id="main-container">
+      <form
+        #targetForm="ngForm"
+        (ngSubmit)="targetForm.form.valid && onSubmit()"
+      >
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input
+            required
+            minlength="2"
+            maxlength="10"
+            name="name"
+            [(ngModel)]="jina"
+            #yourName="ngModel"
+            type="text"
+            class="form-control"
+            placeholder="enter your name here"
+          />
+          <div
+            class="alert alert-danger"
+            *ngIf="yourName.touched && !yourName.valid"
+          >
+            Your name is required
+            <!--<button type="button" class="btn-close" data-bs-dismiss="alert"></button>-->
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input
+            ngModel
+            name="email"
+            [(ngModel)]="email"
+            #emailYako="ngModel"
+            id="email"
+            type="email"
+            class="form-control"
+            placeholder="enter your email"
+            required
+          />
+          <div
+            class="alert alert-danger"
+            *ngIf="emailYako.touched && !emailYako.valid"
+          >
+            Please enter your email
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="quote">Quotes</label>
+          <textarea
+            [(ngModel)]="quote"
+            name="quote"
+            #quoteManeno="ngModel"
+            id="quote"
+            class="form-control"
+            placeholder="type your quote here Hermano..."
+            required
+          ></textarea>
+          <div
+            class="alert alert-danger"
+            *ngIf="quoteManeno.touched && !quoteManeno.valid"
+          >
+            Please write your quote...
+          </div>
+        </div>
+        <button type="submit" class="btn btn-success mt-3">Post</button>
+      </form>
+      <hr />
+      <div class="card shadow-lg p-3 mb-5 bg-white rounded">
+        <p class="matokeo">Name: {{ jina }}</p>
+        <p class="matokeo">Email: {{ email }}</p>
+        <p class="matokeo" id="matokeo">"{{ quote }}"</p>
+      </div>
+    </div>
+  </div>
+</div>
