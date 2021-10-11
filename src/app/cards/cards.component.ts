@@ -25,6 +25,17 @@ export class CardsComponent implements OnInit {
   delete = faTrash;
 
   @Input() newQ: DisplayQuotes;
+  disQuotes = [
+    new DisplayQuotes(
+      0,
+      'Gavin Kariuki',
+      'gavin.kariuki@student.moringaschool.com',
+      'Big Chungus',
+      0,
+      0,
+      new Date('Oct 04, 2021')
+    ),
+  ];
 
 
   constructor() {}
