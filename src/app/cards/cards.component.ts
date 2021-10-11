@@ -36,7 +36,18 @@ export class CardsComponent implements OnInit {
       new Date('Oct 04, 2021')
     ),
   ];
-
+  upVote(event, i) {
+    event.preventDefault();
+    this.disQuotes[i].likes += 1;
+  }
+  downVote(event, i) {
+    event.preventDefault();
+    this.disQuotes[i].dislikes += 1;
+  }
+  deleteQuote(event, i) {
+    console.log('gasgazgf');
+    this.disQuotes.splice(i, 1);
+  }
 
   constructor() {}
 
