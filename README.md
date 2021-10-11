@@ -60,11 +60,13 @@
 
 <!-- ABOUT THE PROJECT -->
 
+![Screenshot 2021-10-11 at 21 50 26](https://user-images.githubusercontent.com/89376826/136852002-8b0bbb85-aa83-4486-ae77-69e5a4814ab5.png)
+
 ## About The Project
 
 Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
+`Gavin-Kariuki`, `Hermano-Quotes`, `twitter_handle`, `gavin.kariuki@student.moringaschool.com`, `Hermano Quotes`, `Quoting app similar to reddit where upvoting and downvoting is enabled`
 
 ### Built With
 
