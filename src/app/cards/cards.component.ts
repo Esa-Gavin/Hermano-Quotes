@@ -1,10 +1,11 @@
+import { DisplayQuotes } from './../../displayQuotes';
 import { Component, OnInit, Input, OnChanges } from '@angular/core';
 import {
   faThumbsUp,
   faThumbsDown,
   faTrash,
 } from '@fortawesome/free-solid-svg-icons';
-import { DisplayQuotes } from 'src/displayQuotes';
+
 
 @Component({
   selector: 'app-cards',
