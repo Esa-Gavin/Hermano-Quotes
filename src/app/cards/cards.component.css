@@ -1,1 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+.hermano {
+    font-family: 'Italianno', cursive;
+    font-size: 60px;
+}
+
+input {
+    width: 80%;
+}
+
+textarea {
+    width: 80%;
+    height: 100%;
+}
+
+
+button{
+    margin-top: 10px;
+}
