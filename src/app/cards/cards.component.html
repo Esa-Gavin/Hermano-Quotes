@@ -17,19 +17,19 @@
       </div>
     </div>
     <div class="dislike col-2">
-        <div>
-          <a href="" (click)="downVote($event, i)">
-            <fa-icon class="likeDislike" [icon]="downvote"></fa-icon>
-          </a>
-        </div>
-        <div class="numLikes2">{{ disQuote.dislikes }}</div>
+      <div>
+        <a href="" (click)="downVote($event, i)">
+          <fa-icon class="likeDislike" [icon]="downvote"></fa-icon>
+        </a>
       </div>
-      <div class="col">
-        <button class="btn btn-danger btn-sm" (click)="deleteQuote($event, i)">
-          <fa-icon id="deleteIcon" [icon]="delete"></fa-icon>
-          Delete quote
-        </button>
-      </div>
-
+      <div class="numLikes2">{{ disQuote.dislikes }}</div>
+    </div>
+    <div class="col">
+      <button class="btn btn-danger btn-sm" (click)="deleteQuote($event, i)">
+        <fa-icon id="deleteIcon" [icon]="delete"></fa-icon>
+        Delete quote
+      </button>
+    </div>
   </div>
+  <hr />
 </div>
