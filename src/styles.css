@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* My Global styles */
+* {
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+body {
+    color: #333;
+    background:url();
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+input[type="text"] {
+    box-sizing: border-box;
+    width: 100%;
+    padding: .5rem;
+}
