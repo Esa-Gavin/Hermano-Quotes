@@ -64,8 +64,6 @@
 
 ## About The Project
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
 `Gavin-Kariuki`, `Hermano-Quotes`, `twitter_handle`, `gavin.kariuki@student.moringaschool.com`, `Hermano Quotes`, `Quoting app similar to reddit where upvoting and downvoting is enabled`
 
 ### Built With
