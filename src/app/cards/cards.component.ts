@@ -32,8 +32,8 @@ export class CardsComponent implements OnInit {
       'Gavin Kariuki',
       'gavin.kariuki@student.moringaschool.com',
       'Big Chungus',
-      0,
-      0,
+      12,
+      3,
       new Date('Oct 04, 2021')
     ),
   ];
