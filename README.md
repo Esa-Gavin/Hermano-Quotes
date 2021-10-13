@@ -62,8 +62,6 @@
 
 ![Screenshot 2021-10-13 at 22 53 37](https://user-images.githubusercontent.com/89376826/137203529-90c9c023-0117-4aa3-8a9f-bbc05d4af7e0.png)
 
-![HermanoQuoteGIF2](https://user-images.githubusercontent.com/89376826/137203044-e8dd7221-28b2-4c29-a174-c2f77794cf5f.gif)
-
 ## About The Project
 
 `Gavin-Kariuki`, `Hermano-Quotes`, `twitter_handle`, `gavin.kariuki@student.moringaschool.com`, `Hermano Quotes`, `Quoting app similar to reddit where upvoting and downvoting is enabled`
@@ -95,6 +93,7 @@ To get a local copy up and running follow these simple steps.
 ## Usage
 
 ![HermanoQuoteGIF2](https://user-images.githubusercontent.com/89376826/137203044-e8dd7221-28b2-4c29-a174-c2f77794cf5f.gif)
+
 You can add a quote, like and dislike the posted quotes by users.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
