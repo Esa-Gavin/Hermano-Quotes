@@ -24,6 +24,8 @@ export class CardsComponent implements OnInit {
   like = faThumbsUp;
   downvote = faThumbsDown;
   delete = faTrash;
+  highestVote: number = 0;
+  highestQuote: number = 0;
 
   @Input() newQ: DisplayQuotes;
   disQuotes = [
@@ -48,6 +50,18 @@ export class CardsComponent implements OnInit {
   deleteQuote(event, i) {
     console.log('gasgazgf');
     this.disQuotes.splice(i, 1);
+  }
+  // code for highlighting the highest quote //
+  highlight(index: number){
+    const check = this.disQuotes[index].likes;
+    if(this.disQuotes.length > 0) {
+      const votes: number[] = [];
+      this.disQuotes.forEach(nyani => votes.push(nyani.likes));
+      if (check === Math.max(...votes)){
+        return true;
+      }
+    }
+    return false;
   }
 
   constructor() {}

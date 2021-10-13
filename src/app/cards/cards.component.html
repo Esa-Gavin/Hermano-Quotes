@@ -3,14 +3,15 @@
   class="card shadow-lg p-3 mb-5 bg-white rounded"
   id="card"
 >
-  <p>{{ disQuote.jina }}</p>
+  <p appHighlight *ngIf='highlight(i)'>{{ disQuote.jina }}</p>
+
   <p>{{ disQuote.email }}</p>
   <p id="matokeo">{{ disQuote.quote }}</p>
   <p>{{ disQuote.publishedDate | date: "medium" }}</p>
   <div class="row">
     <div class="like col-2">
       <div>
-        <a href="" (click)="upVote($event, i)">
+        <a href="" (click)="upVote($event, i)" >
           <fa-icon class="likeDislike" [icon]="like"></fa-icon>
         </a>
         <div class="numLikes">{{ disQuote.likes }}</div>
@@ -18,7 +19,7 @@
     </div>
     <div class="dislike col-2">
       <div>
-        <a href="" (click)="downVote($event, i)">
+        <a href="" (click)="downVote($event, i)" >
           <fa-icon class="likeDislike" [icon]="downvote"></fa-icon>
         </a>
       </div>
