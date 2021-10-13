@@ -60,7 +60,7 @@
 
 <!-- ABOUT THE PROJECT -->
 
-![Screenshot 2021-10-11 at 21 50 26](https://user-images.githubusercontent.com/89376826/136852002-8b0bbb85-aa83-4486-ae77-69e5a4814ab5.png)
+![HermanoQuoteGIF2](https://user-images.githubusercontent.com/89376826/137203044-e8dd7221-28b2-4c29-a174-c2f77794cf5f.gif)
 
 ## About The Project
 
